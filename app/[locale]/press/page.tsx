@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Link } from '@/i18n/routing'
 import { getPress, getProjectBySlug } from '@/lib/content'
-import { ExternalLink, ArrowRight } from 'lucide-react'
+import { ExternalLink, ArrowRight, Newspaper } from 'lucide-react'
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -57,6 +57,40 @@ export default async function PressPage({ params }: Props) {
               const project = item.projectSlug ? getProjectBySlug(item.projectSlug) : null
               const title = locale === 'es' ? item.title.es : item.title.en
               const excerpt = locale === 'es' ? item.excerpt.es : item.excerpt.en
+              const hasUrl = item.url !== null
+
+              const ImageContent = (
+                <div className="aspect-[16/10] relative bg-sand-100 overflow-hidden">
+                  <Image
+                    src={item.image}
+                    alt={title}
+                    fill
+                    className="object-cover transition-transform duration-700 ease-out-expo group-hover:scale-105"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                  {/* Overlay with publication name */}
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-warm-white/90 backdrop-blur-sm px-3 py-1.5 text-xs font-sans uppercase tracking-wider">
+                      {item.publication}
+                    </span>
+                  </div>
+                  {/* Print edition badge */}
+                  {!hasUrl && (
+                    <div className="absolute bottom-4 right-4">
+                      <span className="bg-sand-200/90 backdrop-blur-sm px-3 py-1.5 text-xs font-sans flex items-center gap-1.5">
+                        <Newspaper className="w-3 h-3" />
+                        {locale === 'es' ? 'Edición impresa' : 'Print edition'}
+                      </span>
+                    </div>
+                  )}
+                </div>
+              )
+
+              const TitleContent = (
+                <h2 className="font-display text-xl md:text-2xl leading-tight group-hover:text-terracotta-600 transition-colors duration-300">
+                  {title}
+                </h2>
+              )
 
               return (
                 <article
@@ -64,50 +98,48 @@ export default async function PressPage({ params }: Props) {
                   className="group bg-warm-white border border-sand-200 hover:border-sand-400 transition-all duration-500 overflow-hidden"
                 >
                   {/* Image */}
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block"
-                  >
-                    <div className="aspect-[16/10] relative bg-sand-100 overflow-hidden">
-                      <Image
-                        src={item.image}
-                        alt={title}
-                        fill
-                        className="object-cover transition-transform duration-700 ease-out-expo group-hover:scale-105"
-                        sizes="(max-width: 768px) 100vw, 50vw"
-                      />
-                      {/* Overlay with publication logo */}
-                      <div className="absolute top-4 left-4">
-                        <span className="bg-warm-white/90 backdrop-blur-sm px-3 py-1.5 text-xs font-sans uppercase tracking-wider">
-                          {item.publication}
-                        </span>
-                      </div>
+                  {hasUrl ? (
+                    <a
+                      href={item.url!}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block"
+                    >
+                      {ImageContent}
+                    </a>
+                  ) : (
+                    <div className="block">
+                      {ImageContent}
                     </div>
-                  </a>
+                  )}
 
                   {/* Content */}
                   <div className="p-6 md:p-8">
                     <div className="flex items-start justify-between gap-4 mb-4">
-                      <a
-                        href={item.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block flex-1"
-                      >
-                        <h2 className="font-display text-xl md:text-2xl leading-tight group-hover:text-terracotta-600 transition-colors duration-300">
-                          {title}
-                        </h2>
-                      </a>
-                      <a
-                        href={item.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-shrink-0"
-                      >
-                        <ExternalLink className="w-5 h-5 text-dark-muted group-hover:text-terracotta-600 transition-colors duration-300" />
-                      </a>
+                      {hasUrl ? (
+                        <a
+                          href={item.url!}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block flex-1"
+                        >
+                          {TitleContent}
+                        </a>
+                      ) : (
+                        <div className="flex-1">
+                          {TitleContent}
+                        </div>
+                      )}
+                      {hasUrl && (
+                        <a
+                          href={item.url!}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex-shrink-0"
+                        >
+                          <ExternalLink className="w-5 h-5 text-dark-muted group-hover:text-terracotta-600 transition-colors duration-300" />
+                        </a>
+                      )}
                     </div>
 
                     <p className="text-body mb-6 line-clamp-3">

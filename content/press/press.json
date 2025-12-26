@@ -1,82 +1,87 @@
 [
   {
-    "id": "hola-casa-marbella-2024",
-    "publication": "¡Hola! Casa",
+    "id": "hola-decoracion-marbella-2024",
+    "publication": "¡HOLA! Decoración",
     "title": {
-      "es": "Marbella contemporánea",
-      "en": "Contemporary Marbella"
+      "es": "Esta casa marbellí reinterpreta el estilo mediterráneo con un punto exótico y actual",
+      "en": "This Marbella house reinterprets the Mediterranean style with an exotic and modern touch"
     },
     "excerpt": {
-      "es": "Descubre esta espectacular villa en Marbella donde el diseño contemporáneo se fusiona con el estilo de vida mediterráneo.",
-      "en": "Discover this spectacular villa in Marbella where contemporary design merges with the Mediterranean lifestyle."
+      "es": "Un paraíso de más de 500 m² donde el exterior invita a trasladar la vida fuera. Todo el diseño de Garnica Miguelena potencia la sensación de disfrute del clima y del aire libre.",
+      "en": "A paradise of over 500 m² where the outdoor space invites you to live outside. The entire Garnica Miguelena design enhances the enjoyment of the climate and outdoor living."
     },
-    "date": "2024-03",
+    "date": "2024-07",
     "image": "/press/hola-casa-marbella.jpg",
-    "url": "https://www.holacasa.com",
-    "projectSlug": "los-naranjos"
+    "url": "https://www.hola.com/decoracion/20240701702013/casa-estilo-mediterraneo-actualizado-marbella-am/",
+    "type": "reportaje",
+    "projectSlug": null
   },
   {
-    "id": "ad-interioristas-accion-2024",
-    "publication": "AD España",
+    "id": "interiores-guadalmina-2025",
+    "publication": "Revista Interiores",
     "title": {
-      "es": "Interioristas en acción: los proyectos más inspiradores del año",
-      "en": "Interior designers in action: the most inspiring projects of the year"
+      "es": "Una casa elegante, cálida y atemporal, llena de ideas",
+      "en": "An elegant, warm and timeless home, full of ideas"
     },
     "excerpt": {
-      "es": "Selección de los mejores proyectos de interiorismo del año, incluyendo esta reforma integral en el centro de Madrid.",
-      "en": "Selection of the best interior design projects of the year, including this complete renovation in central Madrid."
+      "es": "Mezclamos elementos locales y contemporáneos para darle un toque único a cada proyecto. Esta fantástica casa unifamiliar ubicada en Guadalmina Baja refleja nuestro estilo atemporal.",
+      "en": "We mix local and contemporary elements to give each project a unique touch. This fantastic single-family home in Guadalmina Baja reflects our timeless style."
     },
-    "date": "2024-06",
-    "image": "/press/ad-interioristas.jpg",
-    "url": "https://www.revistaad.es",
-    "projectSlug": "cordoba"
+    "date": "2025-11",
+    "image": "/press/interiores-guadalmina.jpg",
+    "url": "https://www.revistainteriores.es/casas/casa-elegante-calida-atemporal-llena-ideas-mezclamos-elementos-locales-contemporaneos-para-darle-toque-unico_12355",
+    "type": "reportaje",
+    "projectSlug": "guadalmina23"
   },
   {
     "id": "elmueble-heredia-2025",
     "publication": "El Mueble",
     "title": {
-      "es": "Una casa con vistas al mar",
-      "en": "A house with sea views"
+      "es": "Encanto andaluz",
+      "en": "Andalusian charm"
     },
     "excerpt": {
-      "es": "Esta vivienda en La Heredia combina materiales naturales y una paleta neutra para crear espacios serenos con vistas espectaculares.",
-      "en": "This home in La Heredia combines natural materials and a neutral palette to create serene spaces with spectacular views."
+      "es": "Esta casita blanca con ventanas azules está en Marbella y es la más encantadora que vas a ver hoy. Una de las casitas de colores de La Heredia vive hoy una segunda juventud gracias al estudio Garnica Miguelena.",
+      "en": "This white cottage with blue windows is in Marbella and is the most charming you'll see today. One of the colorful cottages in La Heredia is experiencing a second youth thanks to Garnica Miguelena studio."
     },
-    "date": "2025-01",
+    "date": "2025-05",
     "image": "/press/elmueble-heredia.jpg",
-    "url": "https://www.elmueble.com",
+    "url": "https://www.elmueble.com/casas/casa-755-encanto-andaluz-heredia_60353",
+    "type": "reportaje",
     "projectSlug": "la-heredia"
   },
   {
     "id": "interiores-joya-familia-2024",
     "publication": "Interiores",
     "title": {
-      "es": "Una joya para toda la familia",
-      "en": "A gem for the whole family"
+      "es": "La joya de la familia",
+      "en": "The family gem"
     },
     "excerpt": {
-      "es": "Reportaje sobre esta villa familiar donde cada estancia está pensada para el confort y la convivencia.",
-      "en": "Feature on this family villa where every room is designed for comfort and togetherness."
+      "es": "Reportaje completo en la edición impresa de la revista Interiores sobre esta finca familiar en Málaga, un proyecto donde el respeto por la historia se fusiona con el confort contemporáneo.",
+      "en": "Full feature in the print edition of Interiores magazine about this family estate in Málaga, a project where respect for history merges with contemporary comfort."
     },
-    "date": "2024-09",
+    "date": "2024-07",
     "image": "/press/interiores-joya.jpg",
-    "url": "https://www.interiores.es",
-    "projectSlug": "guadalmina23"
+    "url": null,
+    "type": "reportaje",
+    "projectSlug": null
   },
   {
     "id": "interiores-ave-fenix-2025",
     "publication": "Interiores",
     "title": {
-      "es": "El ave fénix del interiorismo",
-      "en": "The phoenix of interior design"
+      "es": "Como un ave fénix",
+      "en": "Like a phoenix"
     },
     "excerpt": {
-      "es": "Cómo transformar completamente un espacio obsoleto en un hogar contemporáneo lleno de luz y personalidad.",
-      "en": "How to completely transform an outdated space into a contemporary home full of light and personality."
+      "es": "Reportaje en la edición impresa de la revista Interiores sobre la transformación completa de esta vivienda, renacida de sus cenizas con un diseño completamente renovado.",
+      "en": "Feature in the print edition of Interiores magazine about the complete transformation of this home, reborn from its ashes with a completely renovated design."
     },
-    "date": "2025-02",
+    "date": "2025-12",
     "image": "/press/interiores-fenix.jpg",
-    "url": "https://www.interiores.es",
-    "projectSlug": "lomas-pueblo"
+    "url": null,
+    "type": "reportaje",
+    "projectSlug": null
   }
 ]

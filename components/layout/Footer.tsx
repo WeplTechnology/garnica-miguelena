@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/routing'
-import { Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
+import { Instagram, Linkedin, Facebook, Mail, Phone, MapPin } from 'lucide-react'
 
 export default async function Footer() {
   const t = await getTranslations('footer')
@@ -34,6 +34,15 @@ export default async function Footer() {
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.facebook.com/garnicamiguelena/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 border border-warm-stone/30 rounded-full transition-all duration-300 hover:border-warm-white hover:bg-warm-white/10"
+                aria-label="Facebook"
+              >
+                <Facebook className="w-5 h-5" />
               </a>
               <a
                 href="https://www.linkedin.com/company/garnicamiguelena/"

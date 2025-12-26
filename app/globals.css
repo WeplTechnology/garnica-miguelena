@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-warm-white: #FFFCF7;
+    --color-warm-cream: #FDF8F0;
+    --color-warm-stone: #E8E2D9;
+    --color-dark: #1A1814;
+    --color-dark-soft: #2D2A25;
+    --color-dark-muted: #4A453D;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-warm-white text-dark font-sans;
+  }
+
+  ::selection {
+    @apply bg-terracotta-200 text-dark;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-warm-stone;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-dark-muted rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-dark-soft;
+  }
+}
+
+@layer components {
+  /* Typography */
+  .heading-display {
+    @apply font-display font-light tracking-tight;
+  }
+
+  .heading-section {
+    @apply font-display text-display-md font-light tracking-tight;
+  }
+
+  .text-body {
+    @apply font-sans text-base leading-relaxed text-dark-muted;
+  }
+
+  .text-body-lg {
+    @apply font-sans text-lg leading-relaxed text-dark-muted;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-4 
+           bg-dark text-warm-white font-sans text-sm tracking-wider uppercase
+           transition-all duration-500 ease-out-expo
+           hover:bg-dark-soft hover:tracking-widest;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-8 py-4 
+           border border-dark text-dark font-sans text-sm tracking-wider uppercase
+           transition-all duration-500 ease-out-expo
+           hover:bg-dark hover:text-warm-white hover:tracking-widest;
+  }
+
+  .btn-text {
+    @apply inline-flex items-center gap-2 font-sans text-sm tracking-wider uppercase
+           text-dark-muted transition-all duration-300
+           hover:text-dark hover:gap-3;
+  }
+
+  /* Links */
+  .link-underline {
+    @apply relative inline-block;
+  }
+
+  .link-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-px bg-dark
+           transition-all duration-500 ease-out-expo;
+  }
+
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+
+  /* Cards - Note: use 'group' class directly in JSX, not via @apply */
+  .project-card {
+    @apply relative overflow-hidden cursor-pointer;
+  }
+
+  .project-card-image {
+    @apply transition-transform duration-700 ease-out-expo;
+  }
+
+  .project-card:hover .project-card-image {
+    @apply scale-105;
+  }
+
+  .project-card-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-dark/60 via-dark/20 to-transparent
+           opacity-0 transition-opacity duration-500;
+  }
+
+  .project-card:hover .project-card-overlay {
+    @apply opacity-100;
+  }
+
+  .project-card-content {
+    @apply absolute bottom-0 left-0 right-0 p-6 text-warm-white
+           translate-y-4 opacity-0 transition-all duration-500;
+  }
+
+  .project-card:hover .project-card-content {
+    @apply translate-y-0 opacity-100;
+  }
+
+  /* Container */
+  .container-wide {
+    @apply max-w-[1800px] mx-auto px-6 md:px-12 lg:px-24;
+  }
+
+  .container-narrow {
+    @apply max-w-4xl mx-auto px-6;
+  }
+
+  /* Dividers */
+  .divider {
+    @apply w-16 h-px bg-sand-400;
+  }
+
+  .divider-vertical {
+    @apply w-px h-16 bg-sand-400;
+  }
+
+  /* Image overlay effect */
+  .image-grain::after {
+    content: '';
+    @apply absolute inset-0 pointer-events-none opacity-[0.03];
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  }
+}
+
+@layer utilities {
+  /* Animation delays */
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+  .animation-delay-500 { animation-delay: 500ms; }
+  .animation-delay-600 { animation-delay: 600ms; }
+  .animation-delay-700 { animation-delay: 700ms; }
+  .animation-delay-800 { animation-delay: 800ms; }
+
+  /* Gradient text */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-terracotta-600 to-terracotta-400;
+  }
+
+  /* Aspect ratios */
+  .aspect-portrait { aspect-ratio: 3/4; }
+  .aspect-landscape { aspect-ratio: 4/3; }
+  .aspect-wide { aspect-ratio: 16/9; }
+  .aspect-ultrawide { aspect-ratio: 21/9; }
+
+  /* Hide scrollbar */
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}

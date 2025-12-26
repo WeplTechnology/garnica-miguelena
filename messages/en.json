@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "title": "Garnica Miguelena | Architecture & Interior Design in Marbella",
+    "description": "Architecture and interior design studio in Marbella. Residential, commercial and hospitality projects."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "studio": "Studio",
+    "services": "Services",
+    "press": "Press",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Architecture & Interior Design",
+      "subtitle": "",
+      "description": "Architecture and interior design studio in Marbella",
+      "cta": "View projects"
+    },
+    "featured": {
+      "title": "Projects",
+      "viewAll": "View all"
+    },
+    "about": {
+      "title": "The Studio",
+      "description": "Garnica Miguelena is an architecture and interior design studio based in Marbella. We develop residential, commercial and hospitality projects, from full renovations to interior decoration.",
+      "cta": "About us"
+    },
+    "services": {
+      "title": "Services",
+      "subtitle": "",
+      "description": "From initial concept to key handover, we manage every aspect of the project.",
+      "cta": "View services"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "",
+    "filters": {
+      "all": "All",
+      "villa": "Villas",
+      "flat": "Apartments",
+      "penthouse": "Penthouses",
+      "beach-house": "Beach Houses",
+      "country-house": "Country Houses",
+      "office": "Offices",
+      "retail": "Retail",
+      "hotel": "Hotels"
+    },
+    "viewProject": "View project",
+    "location": "Location",
+    "year": "Year",
+    "photographer": "Photography",
+    "backToProjects": "Back to projects",
+    "nextProject": "Next",
+    "prevProject": "Previous"
+  },
+  "studio": {
+    "title": "The Studio",
+    "intro": "Garnica Miguelena is an architecture and interior design studio based in Marbella. We develop residential, commercial and hospitality projects, from full renovations to interior decoration.",
+    "philosophy": {
+      "title": "How we work",
+      "text": "We approach each project with a hands-on, personalised method. We are involved from the first meeting to the key handover, with close attention to every phase of the construction process.\n\nWe work with quality materials and trusted craftsmen and suppliers. We like to mix contemporary pieces with vintage finds, always seeking functional, light-filled and timeless spaces."
+    },
+    "team": {
+      "title": "The Team",
+      "text": "We are a multidisciplinary team of architects, interior designers and decorators. We share a passion for detail and commitment to every project."
+    },
+    "services": {
+      "title": "Services",
+      "architecture": {
+        "title": "Architecture",
+        "description": "Design and construction management in collaboration with external architects."
+      },
+      "interior": {
+        "title": "Interior Design",
+        "description": "Full renovations with bespoke projects and coordination of all trades."
+      },
+      "decoration": {
+        "title": "Decoration",
+        "description": "Selection of furniture, finishes and textiles tailored to each client and space."
+      }
+    },
+    "process": {
+      "title": "Work process",
+      "steps": [
+        {
+          "title": "Initial meeting",
+          "description": "We listen to the client's needs and lifestyle."
+        },
+        {
+          "title": "Concept proposal",
+          "description": "We present a moodboard with visual references and materials."
+        },
+        {
+          "title": "Project",
+          "description": "We develop floor plans, elevations and construction details."
+        },
+        {
+          "title": "Site management",
+          "description": "We coordinate all professionals to ensure proper execution."
+        },
+        {
+          "title": "Handover",
+          "description": "Quality control and follow-up."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Shall we start?",
+      "description": "Tell us about your project and let's find the best solution together."
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "",
+    "intro": "From initial concept to key handover, we manage every aspect of the project.",
+    "list": {
+      "interior": {
+        "title": "Interior Design",
+        "description": "Comprehensive interior design, space planning and material selection. We transform every room into a unique space that reflects the personality and lifestyle of our clients."
+      },
+      "furniture": {
+        "title": "Furniture & Decoration",
+        "description": "Selection and procurement of furniture, textiles and decorative elements. We work with the finest brands and artisans to create exclusive, personalized environments."
+      },
+      "management": {
+        "title": "Construction Supervision",
+        "description": "On-site supervision and coordination, permit management, contractor oversight and timeline control. We ensure every project is executed to the highest quality standards."
+      },
+      "architecture": {
+        "title": "Architecture",
+        "description": "Full renovations in collaboration with partner architecture firms. We coordinate structural design with interior design for a cohesive result."
+      }
+    }
+  },
+  "press": {
+    "title": "Press",
+    "subtitle": "Garnica Miguelena in the media.",
+    "viewProject": "View project",
+    "empty": "Media appearances coming soon."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "",
+    "intro": "Get in touch by email or phone.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Message sent. We'll be in touch soon.",
+      "error": "Error sending. Please try again."
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email"
+    }
+  },
+  "footer": {
+    "tagline": "Architecture and interior design in Marbella",
+    "rights": "All rights reserved",
+    "privacy": "Privacy",
+    "legal": "Legal"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "loading": "Loading...",
+    "error": "An error occurred"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "metaDescription": "Privacy policy and data protection of Garnica Miguelena S.L.",
+    "lastUpdated": "Last updated",
+    "responsible": {
+      "title": "Data Controller",
+      "company": "Company Name",
+      "cif": "Tax ID",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "purpose": {
+      "title": "Purpose of Processing",
+      "intro": "The personal data you provide will be processed for the following purposes:",
+      "item1": "Managing enquiries and information requests received through the contact form.",
+      "item2": "Sending commercial communications about our services, provided you have given your consent.",
+      "item3": "Managing commercial and contractual relationships with our clients.",
+      "item4": "Complying with applicable legal obligations."
+    },
+    "legitimation": {
+      "title": "Legal Basis",
+      "text": "The legal basis for processing your data is the consent you provide when contacting us, as well as our legitimate interest in responding to your enquiries and the execution of a contract when a commercial relationship exists."
+    },
+    "recipients": {
+      "title": "Recipients",
+      "text": "We will not transfer your personal data to third parties, except as required by law. Service providers necessary for the operation of the website (hosting, email) may have access to your data, with whom we have signed data processing agreements."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "intro": "You may exercise the following rights regarding your personal data:",
+      "access": "Access",
+      "accessDesc": "Know what personal data we are processing.",
+      "rectification": "Rectification",
+      "rectificationDesc": "Request the correction of inaccurate data.",
+      "deletion": "Erasure",
+      "deletionDesc": "Request the deletion of your data when no longer necessary.",
+      "opposition": "Objection",
+      "oppositionDesc": "Object to the processing of your data in certain circumstances.",
+      "portability": "Portability",
+      "portabilityDesc": "Receive your data in a structured format to transfer to another controller.",
+      "limitation": "Restriction",
+      "limitationDesc": "Request the restriction of processing in certain cases.",
+      "howTo": "To exercise these rights, you may contact us at info@garnicamiguelena.com, attaching a copy of your ID. You also have the right to lodge a complaint with the Spanish Data Protection Agency (www.aepd.es)."
+    },
+    "retention": {
+      "title": "Data Retention",
+      "text": "We will retain your personal data as long as a commercial relationship exists or until you exercise your right to erasure. Once the relationship ends, data will be retained for the applicable legal periods to address potential liabilities."
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "intro": "This website uses cookies to improve the browsing experience:",
+      "technical": "Technical cookies",
+      "technicalDesc": "Necessary for the basic functioning of the website.",
+      "analytics": "Analytics cookies",
+      "analyticsDesc": "Allow us to analyse website usage anonymously to improve our services.",
+      "disable": "You can configure your browser to reject cookies or to alert you when cookies are being sent. However, if you reject technical cookies, some website functionalities may not be available."
+    },
+    "security": {
+      "title": "Security",
+      "text": "We have adopted the necessary technical and organisational measures to ensure the security of your personal data and prevent its alteration, loss, unauthorised processing or access, in accordance with the state of technology and the nature of the data stored."
+    },
+    "changes": {
+      "title": "Changes",
+      "text": "We reserve the right to modify this privacy policy to adapt it to legislative or case law developments. In case of significant changes, we will inform you through our website."
+    }
+  },
+  "legal": {
+    "title": "Legal Notice",
+    "metaDescription": "Legal notice and terms of use of the Garnica Miguelena S.L. website.",
+    "lastUpdated": "Last updated",
+    "identification": {
+      "title": "Website Owner",
+      "intro": "In compliance with Article 10 of Law 34/2002 of 11 July on Information Society Services and Electronic Commerce, the following information identifies the owner of this website:",
+      "company": "Company Name",
+      "cif": "Tax ID",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "activity": "Activity"
+    },
+    "object": {
+      "title": "Purpose",
+      "text": "This website aims to showcase the architecture and interior design services offered by Garnica Miguelena S.L., as well as to facilitate contact with potential clients. Access and use of this website confers the status of user and implies acceptance of these conditions."
+    },
+    "conditions": {
+      "title": "Terms of Use",
+      "intro": "The user agrees to make appropriate use of the website, respecting current legislation and refraining from:",
+      "item1": "Carrying out unlawful activities or activities contrary to good faith and public order.",
+      "item2": "Disseminating defamatory, obscene, threatening content or content that violates the rights of third parties.",
+      "item3": "Introducing computer viruses or any element that may damage the computer systems of the owner or third parties.",
+      "item4": "Attempting to access restricted areas of the computer systems of the owner or third parties."
+    },
+    "intellectual": {
+      "title": "Intellectual and Industrial Property",
+      "text1": "All website content, including texts, photographs, graphics, images, icons, design, software and other elements, are the property of Garnica Miguelena S.L. or third parties who have authorised their use, and are protected by intellectual and industrial property laws.",
+      "text2": "Reproduction, distribution, public communication, transformation or any other form of exploitation of the content without the express written authorisation of the owner is prohibited. Unauthorised use of this content will give rise to the legally established liabilities."
+    },
+    "liability": {
+      "title": "Disclaimer",
+      "intro": "Garnica Miguelena S.L. is not responsible for:",
+      "item1": "Damages that may arise from interference, interruptions, computer viruses, breakdowns or disconnections in the operation of the website.",
+      "item2": "Damages caused by third parties through illegitimate intrusions beyond the owner's control.",
+      "item3": "Lack of availability or continuity of the website.",
+      "item4": "Content and services of links to other websites."
+    },
+    "links": {
+      "title": "Third-Party Links",
+      "text": "This website may contain links to third-party pages. Garnica Miguelena S.L. is not responsible for the content, accuracy or operation of such external sites. Links are provided for informational purposes only and their inclusion does not imply approval of their content."
+    },
+    "modifications": {
+      "title": "Modifications",
+      "text": "Garnica Miguelena S.L. reserves the right to modify the content of the website and these conditions at any time without prior notice. It is the user's responsibility to periodically review these conditions."
+    },
+    "jurisdiction": {
+      "title": "Applicable Law and Jurisdiction",
+      "text": "These conditions are governed by Spanish law. For any dispute arising from access to or use of this website, the parties submit to the Courts and Tribunals of Marbella (Málaga), expressly waiving any other jurisdiction that may apply."
+    }
+  }
+}

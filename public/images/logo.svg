@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 260">
+  <style>
+    .main {
+      font-family: "Didot", "Bodoni MT", "Libre Bodoni", "Playfair Display", serif;
+      font-weight: 400;
+      letter-spacing: 4px;
+      fill: #000;
+    }
+    .subtitle {
+      font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+      font-weight: 400;
+      font-size: 26px;
+      letter-spacing: 3px;
+      fill: #000;
+    }
+  </style>
+  <!-- Grupo principal -->
+  <g>
+    <!-- Texto izquierda -->
+    <text x="120" y="125" font-size="92" class="main">GARNICA</text>
+    <!-- Separador: línea real (no carácter "|") -->
+    <line x1="650" y1="45" x2="650" y2="145" stroke="#000" stroke-width="2"/>
+    <!-- Texto derecha -->
+    <text x="710" y="125" font-size="92" class="main">MIGUELENA</text>
+  </g>
+  <!-- Subtítulo centrado -->
+  <text x="700" y="205" text-anchor="middle" class="subtitle">
+    ARCHITECTURE &amp; INTERIOR DESIGN
+  </text>
+</svg>

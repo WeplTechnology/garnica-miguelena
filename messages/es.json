@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "title": "Garnica Miguelena | Arquitectura e Interiorismo en Marbella",
+    "description": "Estudio de arquitectura e interiorismo en Marbella. Proyectos de viviendas, villas, locales comerciales y hoteles."
+  },
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "studio": "Estudio",
+    "services": "Servicios",
+    "press": "Prensa",
+    "contact": "Contacto"
+  },
+  "home": {
+    "hero": {
+      "title": "Arquitectura e Interiorismo",
+      "subtitle": "",
+      "description": "Estudio de arquitectura e interiorismo en Marbella",
+      "cta": "Ver proyectos"
+    },
+    "featured": {
+      "title": "Proyectos",
+      "viewAll": "Ver todos"
+    },
+    "about": {
+      "title": "El Estudio",
+      "description": "Garnica Miguelena es un estudio de arquitectura e interiorismo con sede en Marbella. Desarrollamos proyectos de viviendas, villas, locales comerciales y hoteles, desde la reforma integral hasta la decoración de interiores.",
+      "cta": "Sobre nosotros"
+    },
+    "services": {
+      "title": "Servicios",
+      "subtitle": "",
+      "description": "Desde el concepto inicial hasta la entrega de llaves, nos ocupamos de cada aspecto del proyecto.",
+      "cta": "Ver servicios"
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "",
+    "filters": {
+      "all": "Todos",
+      "villa": "Villas",
+      "flat": "Pisos",
+      "penthouse": "Áticos",
+      "beach-house": "Casas de Playa",
+      "country-house": "Casas de Campo",
+      "office": "Oficinas",
+      "retail": "Locales Comerciales",
+      "hotel": "Hoteles"
+    },
+    "viewProject": "Ver proyecto",
+    "location": "Ubicación",
+    "year": "Año",
+    "photographer": "Fotografía",
+    "backToProjects": "Volver a proyectos",
+    "nextProject": "Siguiente",
+    "prevProject": "Anterior"
+  },
+  "studio": {
+    "title": "El Estudio",
+    "intro": "Garnica Miguelena es un estudio de arquitectura e interiorismo fundado en Marbella. Desarrollamos proyectos de viviendas, villas, locales comerciales y hoteles, abarcando desde la reforma integral hasta la decoración de interiores.",
+    "philosophy": {
+      "title": "Cómo trabajamos",
+      "text": "Cada proyecto lo abordamos de forma integral y personalizada. Nos involucramos desde la primera reunión hasta la entrega de llaves, con un seguimiento detallado de cada fase de la obra.\n\nTrabajamos con materiales de calidad y colaboramos con artesanos y proveedores de confianza. Nos gusta mezclar piezas contemporáneas con elementos recuperados, siempre buscando espacios funcionales, luminosos y atemporales."
+    },
+    "team": {
+      "title": "El Equipo",
+      "text": "Somos un equipo multidisciplinar de arquitectas, interioristas y decoradoras. Compartimos la pasión por el detalle y el compromiso con cada proyecto."
+    },
+    "services": {
+      "title": "Servicios",
+      "architecture": {
+        "title": "Arquitectura",
+        "description": "Diseño y dirección de obra nueva en colaboración con arquitectos externos."
+      },
+      "interior": {
+        "title": "Interiorismo",
+        "description": "Reformas integrales con proyecto a medida y coordinación de todos los gremios."
+      },
+      "decoration": {
+        "title": "Decoración",
+        "description": "Selección de mobiliario, acabados y textiles adaptados a cada cliente y espacio."
+      }
+    },
+    "process": {
+      "title": "Proceso de trabajo",
+      "steps": [
+        {
+          "title": "Reunión inicial",
+          "description": "Escuchamos las necesidades y el estilo de vida del cliente."
+        },
+        {
+          "title": "Propuesta de concepto",
+          "description": "Presentamos un moodboard con referencias visuales y materiales."
+        },
+        {
+          "title": "Proyecto",
+          "description": "Desarrollamos planos, alzados y detalles constructivos."
+        },
+        {
+          "title": "Dirección de obra",
+          "description": "Coordinamos a todos los profesionales para asegurar la correcta ejecución."
+        },
+        {
+          "title": "Entrega",
+          "description": "Control de calidad y seguimiento posterior."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Empezamos?",
+      "description": "Cuéntanos tu proyecto y encontremos juntos la mejor solución."
+    }
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "",
+    "intro": "Desde el concepto inicial hasta la entrega de llaves, nos ocupamos de cada aspecto del proyecto.",
+    "list": {
+      "interior": {
+        "title": "Interiorismo",
+        "description": "Diseño integral de interiores, distribución de espacios y selección de materiales. Transformamos cada ambiente en un espacio único que refleja la personalidad y estilo de vida de nuestros clientes."
+      },
+      "furniture": {
+        "title": "Mobiliario y Decoración",
+        "description": "Selección y adquisición de mobiliario, textiles y elementos decorativos. Trabajamos con las mejores marcas y artesanos para crear ambientes exclusivos y personalizados."
+      },
+      "management": {
+        "title": "Dirección de Obra",
+        "description": "Supervisión y coordinación de obra, gestión de licencias, contratistas y control de plazos. Garantizamos que cada proyecto se ejecute con los más altos estándares de calidad."
+      },
+      "architecture": {
+        "title": "Arquitectura",
+        "description": "Reformas integrales en colaboración con estudios de arquitectura asociados. Coordinamos el diseño estructural con el interiorismo para un resultado coherente."
+      }
+    }
+  },
+  "press": {
+    "title": "Prensa",
+    "subtitle": "Garnica Miguelena en los medios de comunicación.",
+    "viewProject": "Ver proyecto",
+    "empty": "Próximamente apariciones en medios."
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "",
+    "intro": "Escríbenos o llámanos directamente.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "submit": "Enviar",
+      "sending": "Enviando...",
+      "success": "Mensaje enviado. Te contactaremos pronto.",
+      "error": "Error al enviar. Inténtalo de nuevo."
+    },
+    "info": {
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "email": "Email"
+    }
+  },
+  "footer": {
+    "tagline": "Arquitectura e interiorismo en Marbella",
+    "rights": "Todos los derechos reservados",
+    "privacy": "Privacidad",
+    "legal": "Aviso Legal"
+  },
+  "common": {
+    "learnMore": "Ver más",
+    "viewAll": "Ver todos",
+    "loading": "Cargando...",
+    "error": "Ha ocurrido un error"
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "metaDescription": "Política de privacidad y protección de datos de Garnica Miguelena S.L.",
+    "lastUpdated": "Última actualización",
+    "responsible": {
+      "title": "Responsable del Tratamiento",
+      "company": "Razón Social",
+      "cif": "CIF",
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "email": "Email"
+    },
+    "purpose": {
+      "title": "Finalidad del Tratamiento",
+      "intro": "Los datos personales que nos facilites serán tratados con las siguientes finalidades:",
+      "item1": "Gestionar las consultas y solicitudes de información recibidas a través del formulario de contacto.",
+      "item2": "Enviar comunicaciones comerciales sobre nuestros servicios, siempre que hayas dado tu consentimiento.",
+      "item3": "Gestionar la relación comercial y contractual con nuestros clientes.",
+      "item4": "Cumplir con las obligaciones legales aplicables."
+    },
+    "legitimation": {
+      "title": "Legitimación",
+      "text": "La base legal para el tratamiento de tus datos es el consentimiento que nos prestas al contactar con nosotros, así como el interés legítimo en atender tus consultas y la ejecución de un contrato cuando exista relación comercial."
+    },
+    "recipients": {
+      "title": "Destinatarios",
+      "text": "No cederemos tus datos personales a terceros, salvo obligación legal. Podrán tener acceso a tus datos los proveedores de servicios necesarios para el funcionamiento de la web (hosting, email), con los que tenemos suscritos contratos de encargado de tratamiento."
+    },
+    "rights": {
+      "title": "Derechos",
+      "intro": "Puedes ejercer los siguientes derechos en relación con tus datos personales:",
+      "access": "Acceso",
+      "accessDesc": "Conocer qué datos personales estamos tratando.",
+      "rectification": "Rectificación",
+      "rectificationDesc": "Solicitar la corrección de datos inexactos.",
+      "deletion": "Supresión",
+      "deletionDesc": "Solicitar la eliminación de tus datos cuando ya no sean necesarios.",
+      "opposition": "Oposición",
+      "oppositionDesc": "Oponerte al tratamiento de tus datos en determinadas circunstancias.",
+      "portability": "Portabilidad",
+      "portabilityDesc": "Recibir tus datos en formato estructurado para trasladarlos a otro responsable.",
+      "limitation": "Limitación",
+      "limitationDesc": "Solicitar la limitación del tratamiento en determinados casos.",
+      "howTo": "Para ejercer estos derechos, puedes contactarnos en info@garnicamiguelena.com adjuntando copia de tu documento de identidad. También tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es)."
+    },
+    "retention": {
+      "title": "Conservación de Datos",
+      "text": "Conservaremos tus datos personales mientras exista una relación comercial o mientras no ejerzas tu derecho de supresión. Una vez finalizada la relación, los datos se conservarán durante los plazos legales aplicables para atender posibles responsabilidades."
+    },
+    "cookies": {
+      "title": "Política de Cookies",
+      "intro": "Este sitio web utiliza cookies para mejorar la experiencia de navegación:",
+      "technical": "Cookies técnicas",
+      "technicalDesc": "Necesarias para el funcionamiento básico del sitio web.",
+      "analytics": "Cookies analíticas",
+      "analyticsDesc": "Nos permiten analizar el uso del sitio web de forma anónima para mejorar nuestros servicios.",
+      "disable": "Puedes configurar tu navegador para rechazar las cookies o para que te avise cuando se envíen. Sin embargo, si rechazas las cookies técnicas, algunas funcionalidades del sitio pueden no estar disponibles."
+    },
+    "security": {
+      "title": "Seguridad",
+      "text": "Hemos adoptado las medidas técnicas y organizativas necesarias para garantizar la seguridad de tus datos personales y evitar su alteración, pérdida, tratamiento o acceso no autorizado, de acuerdo con el estado de la tecnología y la naturaleza de los datos almacenados."
+    },
+    "changes": {
+      "title": "Modificaciones",
+      "text": "Nos reservamos el derecho de modificar esta política de privacidad para adaptarla a novedades legislativas o jurisprudenciales. En caso de cambios significativos, te informaremos a través de nuestra web."
+    }
+  },
+  "legal": {
+    "title": "Aviso Legal",
+    "metaDescription": "Aviso legal y condiciones de uso del sitio web de Garnica Miguelena S.L.",
+    "lastUpdated": "Última actualización",
+    "identification": {
+      "title": "Identificación del Titular",
+      "intro": "En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, se informa de los datos identificativos del titular de este sitio web:",
+      "company": "Razón Social",
+      "cif": "CIF",
+      "address": "Domicilio",
+      "phone": "Teléfono",
+      "email": "Email",
+      "activity": "Actividad"
+    },
+    "object": {
+      "title": "Objeto",
+      "text": "El presente sitio web tiene como finalidad dar a conocer los servicios de arquitectura e interiorismo que ofrece Garnica Miguelena S.L., así como facilitar el contacto con potenciales clientes. El acceso y uso de este sitio web atribuye la condición de usuario e implica la aceptación de las presentes condiciones."
+    },
+    "conditions": {
+      "title": "Condiciones de Uso",
+      "intro": "El usuario se compromete a hacer un uso adecuado del sitio web, respetando la legislación vigente y absteniéndose de:",
+      "item1": "Realizar actividades ilícitas o contrarias a la buena fe y al orden público.",
+      "item2": "Difundir contenidos de carácter difamatorio, obsceno, amenazante o que atente contra los derechos de terceros.",
+      "item3": "Introducir virus informáticos o cualquier elemento que pueda dañar los sistemas informáticos del titular o de terceros.",
+      "item4": "Intentar acceder a áreas restringidas de los sistemas informáticos del titular o de terceros."
+    },
+    "intellectual": {
+      "title": "Propiedad Intelectual e Industrial",
+      "text1": "Todos los contenidos del sitio web, incluyendo textos, fotografías, gráficos, imágenes, iconos, diseño, software y demás elementos, son propiedad de Garnica Miguelena S.L. o de terceros que han autorizado su uso, estando protegidos por las leyes de propiedad intelectual e industrial.",
+      "text2": "Queda prohibida la reproducción, distribución, comunicación pública, transformación o cualquier otra forma de explotación de los contenidos sin autorización expresa y por escrito del titular. El uso no autorizado de estos contenidos dará lugar a las responsabilidades legalmente establecidas."
+    },
+    "liability": {
+      "title": "Exclusión de Responsabilidad",
+      "intro": "Garnica Miguelena S.L. no se hace responsable de:",
+      "item1": "Los daños que pudieran derivarse de interferencias, interrupciones, virus informáticos, averías o desconexiones en el funcionamiento del sitio web.",
+      "item2": "Los daños causados por terceros mediante intromisiones ilegítimas fuera del control del titular.",
+      "item3": "La falta de disponibilidad o continuidad del sitio web.",
+      "item4": "Los contenidos y servicios de enlaces a otros sitios web."
+    },
+    "links": {
+      "title": "Enlaces a Terceros",
+      "text": "Este sitio web puede contener enlaces a páginas de terceros. Garnica Miguelena S.L. no se hace responsable del contenido, veracidad o funcionamiento de dichos sitios externos. Los enlaces se proporcionan únicamente a título informativo y su inclusión no implica la aprobación de sus contenidos."
+    },
+    "modifications": {
+      "title": "Modificaciones",
+      "text": "Garnica Miguelena S.L. se reserva el derecho de modificar el contenido del sitio web y las presentes condiciones en cualquier momento y sin previo aviso. Es responsabilidad del usuario revisar periódicamente estas condiciones."
+    },
+    "jurisdiction": {
+      "title": "Legislación Aplicable y Jurisdicción",
+      "text": "Las presentes condiciones se rigen por la legislación española. Para cualquier controversia que pudiera derivarse del acceso o uso de este sitio web, las partes se someten a los Juzgados y Tribunales de Marbella (Málaga), con renuncia expresa a cualquier otro fuero que pudiera corresponderles."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Lomas Pueblo",
+  "category": "villa",
+  "location": "Lomas de Marbella Pueblo",
+  "year": 2023,
+  "photographer": "Javier Bravo",
+  "description": "Villa situada en la pintoresca zona de Lomas de Marbella Pueblo. El proyecto combina el encanto del pueblo andaluz con un interiorismo contemporáneo, creando espacios acogedores que conectan con el paisaje circundante.",
+  "descriptionEn": "Villa located in the picturesque Lomas de Marbella Pueblo area. The project combines the charm of the Andalusian village with contemporary interior design, creating cozy spaces that connect with the surrounding landscape.",
+  "featured": false,
+  "order": 6,
+  "mainImage": "main.jpg",
+  "gallery": [
+    "gallery-01.jpg",
+    "gallery-02.jpg",
+    "gallery-03.jpg",
+    "gallery-04.jpg",
+    "gallery-05.jpg",
+    "gallery-06.jpg",
+    "gallery-07.jpg",
+    "gallery-08.jpg",
+    "gallery-09.jpg"
+  ]
+}

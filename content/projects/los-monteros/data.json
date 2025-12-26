@@ -1,0 +1,25 @@
+{
+  "title": "Los Monteros",
+  "category": "villa",
+  "location": "Los Monteros, Marbella",
+  "year": 2023,
+  "photographer": "Javier Bravo",
+  "description": "Villa de lujo en la prestigiosa urbanización de Los Monteros, Marbella. Un proyecto donde el diseño interior dialoga con las vistas al Mediterráneo, integrando materiales nobles y una paleta de colores que evoca la serenidad costera.",
+  "descriptionEn": "Luxury villa in the prestigious Los Monteros urbanization, Marbella. A project where interior design dialogues with Mediterranean views, integrating noble materials and a color palette that evokes coastal serenity.",
+  "featured": false,
+  "order": 7,
+  "mainImage": "gallery-02.jpg",
+  "gallery": [
+    "gallery-01.jpg",
+    "gallery-02.jpg",
+    "gallery-03.jpg",
+    "gallery-04.jpg",
+    "gallery-05.jpg",
+    "gallery-06.jpg",
+    "gallery-07.jpg",
+    "gallery-08.jpg",
+    "gallery-09.jpg",
+    "gallery-10.jpg",
+    "gallery-11.jpg"
+  ]
+}

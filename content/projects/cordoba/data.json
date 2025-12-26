@@ -1,0 +1,30 @@
+{
+  "title": "Córdoba",
+  "category": "flat",
+  "location": "Córdoba, España",
+  "year": 2023,
+  "description": "Proyecto de interiorismo en el corazón de Córdoba. Un espacio que fusiona la esencia histórica de la ciudad con un diseño contemporáneo, creando ambientes luminosos y elegantes que respetan la arquitectura tradicional andaluza.",
+  "descriptionEn": "Interior design project in the heart of Córdoba. A space that merges the historical essence of the city with contemporary design, creating bright and elegant environments that respect traditional Andalusian architecture.",
+  "featured": true,
+  "order": 3,
+  "mainImage": "gallery-12.jpg",
+  "gallery": [
+    "gallery-01.jpg",
+    "gallery-02.jpg",
+    "gallery-03.jpg",
+    "gallery-04.jpg",
+    "gallery-05.jpg",
+    "gallery-06.jpg",
+    "gallery-07.jpg",
+    "gallery-08.jpg",
+    "gallery-09.jpg",
+    "gallery-10.jpg",
+    "gallery-11.jpg",
+    "gallery-12.jpg",
+    "gallery-13.jpg",
+    "gallery-14.jpg",
+    "gallery-15.jpg",
+    "gallery-16.jpg",
+    "gallery-17.jpg"
+  ]
+}

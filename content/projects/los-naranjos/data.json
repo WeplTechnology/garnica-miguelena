@@ -1,0 +1,30 @@
+{
+  "title": "Los Naranjos",
+  "category": "villa",
+  "location": "Marbella, España",
+  "year": 2024,
+  "photographer": "Javier Bravo",
+  "description": "Reforma integral de una villa contemporánea en la prestigiosa urbanización Los Naranjos de Marbella. El proyecto combina materiales nobles como la piedra natural y la madera con líneas limpias y espacios abiertos que maximizan la luz natural y las vistas al mar Mediterráneo. La paleta de colores neutros crea una atmósfera serena que conecta el interior con el paisaje exterior.",
+  "descriptionEn": "Complete renovation of a contemporary villa in the prestigious Los Naranjos urbanization in Marbella. The project combines noble materials such as natural stone and wood with clean lines and open spaces that maximize natural light and views of the Mediterranean Sea. The neutral color palette creates a serene atmosphere that connects the interior with the exterior landscape.",
+  "featured": true,
+  "order": 1,
+  "mainImage": "main.jpg",
+  "gallery": [
+    "gallery-01.jpg",
+    "gallery-02.jpg",
+    "gallery-03.jpg",
+    "gallery-04.jpg",
+    "gallery-05.jpg",
+    "gallery-06.jpg",
+    "gallery-07.jpg",
+    "gallery-08.jpg",
+    "gallery-09.jpg",
+    "gallery-10.jpg",
+    "gallery-11.jpg",
+    "gallery-12.jpg",
+    "gallery-13.jpg",
+    "gallery-14.jpg",
+    "gallery-15.jpg",
+    "gallery-16.jpg"
+  ]
+}

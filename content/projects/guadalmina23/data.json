@@ -1,0 +1,28 @@
+{
+  "title": "Guadalmina 23",
+  "category": "villa",
+  "location": "Guadalmina, Marbella",
+  "year": 2023,
+  "photographer": "Javier Bravo",
+  "description": "Reforma integral de una villa en la exclusiva zona de Guadalmina, Marbella. El proyecto combina espacios amplios y luminosos con acabados de alta calidad, creando un ambiente sofisticado y acogedor que maximiza las vistas al entorno natural.",
+  "descriptionEn": "Complete renovation of a villa in the exclusive Guadalmina area, Marbella. The project combines spacious, bright rooms with high-quality finishes, creating a sophisticated and welcoming atmosphere that maximizes views of the natural surroundings.",
+  "featured": true,
+  "order": 2,
+  "mainImage": "gallery-05.jpg",
+  "gallery": [
+    "gallery-01.jpg",
+    "gallery-02.jpg",
+    "gallery-03.jpg",
+    "gallery-04.jpg",
+    "gallery-05.jpg",
+    "gallery-06.jpg",
+    "gallery-07.jpg",
+    "gallery-08.jpg",
+    "gallery-09.jpg",
+    "gallery-10.jpg",
+    "gallery-11.jpg",
+    "gallery-12.jpg",
+    "gallery-13.jpg",
+    "gallery-14.jpg"
+  ]
+}

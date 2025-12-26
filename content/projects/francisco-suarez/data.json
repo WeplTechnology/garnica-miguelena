@@ -1,0 +1,27 @@
+{
+  "title": "Francisco Suárez",
+  "category": "flat",
+  "location": "Madrid, España",
+  "year": 2024,
+  "photographer": "Javier Bravo",
+  "description": "Reforma integral de un piso en el barrio de Salamanca, Madrid. Un proyecto que transforma los espacios clásicos madrileños en ambientes contemporáneos, manteniendo la elegancia atemporal característica de la zona.",
+  "descriptionEn": "Complete renovation of an apartment in the Salamanca district, Madrid. A project that transforms classic Madrid spaces into contemporary environments, maintaining the timeless elegance characteristic of the area.",
+  "featured": true,
+  "order": 4,
+  "mainImage": "main.jpg",
+  "gallery": [
+    "gallery-01.jpg",
+    "gallery-02.jpg",
+    "gallery-03.jpg",
+    "gallery-04.jpg",
+    "gallery-05.jpg",
+    "gallery-06.jpg",
+    "gallery-07.jpg",
+    "gallery-08.jpg",
+    "gallery-09.jpg",
+    "gallery-10.jpg",
+    "gallery-11.jpg",
+    "gallery-12.jpg",
+    "gallery-13.jpg"
+  ]
+}

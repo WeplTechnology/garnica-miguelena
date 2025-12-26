@@ -1,0 +1,27 @@
+{
+  "title": "La Heredia",
+  "category": "villa",
+  "location": "La Heredia, Marbella",
+  "year": 2023,
+  "photographer": "Javier Bravo",
+  "description": "Villa en la exclusiva urbanización de La Heredia, Marbella. Un proyecto que integra el estilo mediterráneo con acabados contemporáneos, aprovechando las impresionantes vistas a la montaña y creando espacios interiores que fluyen naturalmente hacia el exterior.",
+  "descriptionEn": "Villa in the exclusive La Heredia urbanization, Marbella. A project that integrates Mediterranean style with contemporary finishes, taking advantage of the stunning mountain views and creating interior spaces that naturally flow to the outdoors.",
+  "featured": false,
+  "order": 5,
+  "mainImage": "gallery-02.jpg",
+  "gallery": [
+    "gallery-01.jpg",
+    "gallery-02.jpg",
+    "gallery-03.jpg",
+    "gallery-04.jpg",
+    "gallery-05.jpg",
+    "gallery-06.jpg",
+    "gallery-07.jpg",
+    "gallery-08.jpg",
+    "gallery-09.jpg",
+    "gallery-10.jpg",
+    "gallery-11.jpg",
+    "gallery-12.jpg",
+    "gallery-13.jpg"
+  ]
+}

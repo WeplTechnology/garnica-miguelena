@@ -1,0 +1,82 @@
+[
+  {
+    "id": "hola-casa-marbella-2024",
+    "publication": "¡Hola! Casa",
+    "title": {
+      "es": "Marbella contemporánea",
+      "en": "Contemporary Marbella"
+    },
+    "excerpt": {
+      "es": "Descubre esta espectacular villa en Marbella donde el diseño contemporáneo se fusiona con el estilo de vida mediterráneo.",
+      "en": "Discover this spectacular villa in Marbella where contemporary design merges with the Mediterranean lifestyle."
+    },
+    "date": "2024-03",
+    "image": "/press/hola-casa-marbella.jpg",
+    "url": "https://www.holacasa.com",
+    "projectSlug": "los-naranjos"
+  },
+  {
+    "id": "ad-interioristas-accion-2024",
+    "publication": "AD España",
+    "title": {
+      "es": "Interioristas en acción: los proyectos más inspiradores del año",
+      "en": "Interior designers in action: the most inspiring projects of the year"
+    },
+    "excerpt": {
+      "es": "Selección de los mejores proyectos de interiorismo del año, incluyendo esta reforma integral en el centro de Madrid.",
+      "en": "Selection of the best interior design projects of the year, including this complete renovation in central Madrid."
+    },
+    "date": "2024-06",
+    "image": "/press/ad-interioristas.jpg",
+    "url": "https://www.revistaad.es",
+    "projectSlug": "cordoba"
+  },
+  {
+    "id": "elmueble-heredia-2025",
+    "publication": "El Mueble",
+    "title": {
+      "es": "Una casa con vistas al mar",
+      "en": "A house with sea views"
+    },
+    "excerpt": {
+      "es": "Esta vivienda en La Heredia combina materiales naturales y una paleta neutra para crear espacios serenos con vistas espectaculares.",
+      "en": "This home in La Heredia combines natural materials and a neutral palette to create serene spaces with spectacular views."
+    },
+    "date": "2025-01",
+    "image": "/press/elmueble-heredia.jpg",
+    "url": "https://www.elmueble.com",
+    "projectSlug": "la-heredia"
+  },
+  {
+    "id": "interiores-joya-familia-2024",
+    "publication": "Interiores",
+    "title": {
+      "es": "Una joya para toda la familia",
+      "en": "A gem for the whole family"
+    },
+    "excerpt": {
+      "es": "Reportaje sobre esta villa familiar donde cada estancia está pensada para el confort y la convivencia.",
+      "en": "Feature on this family villa where every room is designed for comfort and togetherness."
+    },
+    "date": "2024-09",
+    "image": "/press/interiores-joya.jpg",
+    "url": "https://www.interiores.es",
+    "projectSlug": "guadalmina23"
+  },
+  {
+    "id": "interiores-ave-fenix-2025",
+    "publication": "Interiores",
+    "title": {
+      "es": "El ave fénix del interiorismo",
+      "en": "The phoenix of interior design"
+    },
+    "excerpt": {
+      "es": "Cómo transformar completamente un espacio obsoleto en un hogar contemporáneo lleno de luz y personalidad.",
+      "en": "How to completely transform an outdated space into a contemporary home full of light and personality."
+    },
+    "date": "2025-02",
+    "image": "/press/interiores-fenix.jpg",
+    "url": "https://www.interiores.es",
+    "projectSlug": "lomas-pueblo"
+  }
+]
